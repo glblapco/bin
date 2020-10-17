@@ -4,8 +4,9 @@ while true; do
   USER=$(0xbiel)
   DATE=$(clock)
   BAT=$(battery)
+  WTTR=$(wttr)
 
-  xsetroot -name "$USER | $BAT | $DATE"
+  xsetroot -name "$USER | SP: $WTTR | $BAT | $DATE"
   sleep 60s
 
 done &
